@@ -6,7 +6,7 @@ public abstract class AbstractkClass {
 	abstract void abstractMethod();
 	void instanceMethod() {
 		abstractMethod();
-	};
+	}
 	void printData() {
 		System.out.println(name);
 	}

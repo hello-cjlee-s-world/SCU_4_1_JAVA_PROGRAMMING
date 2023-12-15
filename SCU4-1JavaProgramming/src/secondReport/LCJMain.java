@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class LCJMain {
 
 	public static void main(String[] args) throws ParseException {
-		LCJ lcj = new LCJ("이충주","12207165","cndwn213@naver.com","19951018");
+		LCJ lcj = new LCJ("LCJ","11111111","LCJ@naver.com","19040910");
 		Scanner sc = new Scanner(System.in);
 		int button=0;
 		try {

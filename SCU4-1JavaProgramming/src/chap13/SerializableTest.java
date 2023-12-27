@@ -16,7 +16,7 @@ public class SerializableTest {
 			outputStream=new ObjectOutputStream(out);
 			outputStream.writeObject(person);
 			outputStream.writeObject(msg);
-			
+			 
 			ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream("instance.ser"));
 			Person newPerson = (Person)inputStream.readObject();
 			String newStr = (String)inputStream.readObject();
